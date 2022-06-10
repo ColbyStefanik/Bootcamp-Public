@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Document</title>
+</head>
+<body>
+    <div>
+        <p>First Name: *</P>
+        <input type="text" name="first_name">
+    </div>
+    <div>
+        <p>Last Name: *</P>
+        <input type="text" name="last_name">
+    </div>
+    <div>
+        <p>Email Adress: *</P>
+        <input type="text" name="email_adress">
+    </div>
+    <div>
+        <p>Password: *</P>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <p>Confirm Password: *</P>
+        <input type="password" name="confirm_password">
+    </div>
+    <div>
+        <p>Birthday: *</P>
+        <input type="date" name="dob">
+    </div>
+    <div>
+        <p>Gender Identity: *</P>
+        <input type="radio" name="font" value="male" id="male">
+        <label for="male">Male<label>
+        <input type="radio" name="font" value="female" id="female">
+        <label for="female">Female<label>
+        <input type="radio" name="font" value="nonbin" id="nonbin">
+        <label for="nonbin">Non-Binary<label>
+        <input type="radio" name="font" value="noa" id="noa">
+        <label for="noa">I prefer not to answer<label>
+    </div>
+    <div>
+        <p>Short description about myself:</P>
+        <textarea name="comment" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        <p>Favorite Launguage:</P>
+        <select name="favcode">
+            <option>JavaScript</option>
+            <option>HTML</option>
+            <option>C++</option>
+            <option>C#</option>
+        </select>
+    </div>
+    <div>
+        <p></p> <!--To add a bit of space between the two elements-->
+        <input type="checkbox" name="acceptupdates" id="acceptupdates">
+        <label for="acceptupdates">Yes, I would like to recieve periodic email updates<label>
+    </div>
+    <div>
+        <p></p> <!--To add a bit of space between the two elements-->
+        <input type="submit" value="Create Account" >
+    </div>
+    <div>
+        <p>* Indicates a required field</p>
+    </div>
+</body>
+</html>

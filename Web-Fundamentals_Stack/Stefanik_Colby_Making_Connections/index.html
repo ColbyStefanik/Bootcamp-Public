@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Making Connections</title>
+</head>
+<body>
+    <div class="top-bar">
+        <div class= "nav">
+            <h1 class="top-title">Profile</h1>
+            <ul class="top-links">
+                <li><a href="#" class="top">Home</a></li>
+                <li><a href="#" class="top-active">My Profile</a></li>
+                <li><a href="#" class="top">Find Connections</a></li>
+            </ul>
+            <button class="top-btn">Sign Out</button>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="left-bar">
+            <div class="user-card">
+                <div class="user-top-bar">
+                    <img src="icons/user-circle.png" alt="usercircle">
+                </div>
+                <h1 id="user-name">Jane Doe</h1>
+                <div class="location-box">
+                    <img src="icons/map-marker.png" alt="map-marker">
+                    <h3>Seattle</h3>
+                </div>
+                <div class="user-card-bio-box">
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the Internet!</p>
+                </div>
+                <div class="user-card-edit-box">
+                    <img src="Icons/gear.png" alt="gear">
+                    <a href="#" onclick="editUserProfile()">edit profile</a>
+                </div>
+            </div>
+            <div class="about-box">
+                <div class="about-top-bar">
+                    <h3>Education</h3>
+                </div>
+                <p>Coiding Dojo - Full Stack Bootcamp</p>
+                <p class="subtext">Dec 2019 - Mar 2020</p>
+                <p>Triple Black Belt in Mern, Python, and C#</p>
+            </div>
+        </div>
+        <div class="right-bar">
+            <div class="con-req"> <!--Connection Requests-->
+                <div class="con-req-top-bar">
+                    <div class="con-req-num-box">
+                        <h4 id="con-req">2</h4>
+                    </div>
+                    <h4>Connection Requests</h4>
+                </div>
+                <div class="con-request" id="cr-1">
+                    <img src="images/todd-s.jpg" alt="todd-s">
+                    <h3>Todd S</h3>
+                    <button class="btn" onclick="acceptConReq(0)""><img src="icons/accept-circle.png" alt="accept"></button>
+                    <button class="btn" onclick="declineConReq(0)"><img src="icons/close-circle.png" alt="refuse"></button>
+                </div>
+                <div class="con-request" id="cr-2">
+                    <img src="images/phil-s.jpg" alt="phil-s">
+                    <h3>Phil S</h3>
+                    <button class="btn" onclick="acceptConReq(1)""><img src="icons/accept-circle.png" alt="accept"></button>
+                    <button class="btn" onclick="declineConReq(1)"><img src="icons/close-circle.png" alt="refuse"></button>
+                </div>
+            </div>
+            <div class="user-con-box"> <!--User Connections-->
+                <div class="user-con-top-bar">
+                    <div class="user-con-num-box">
+                        <h4 id="con-num">500+</h4> <!--Jeez, that list needs a trim-->
+                    </div>
+                    <h4>Your Connections</h4>
+                </div>
+                <div class="user-con">
+                    <img src="images/adrien-s.jpg" alt="adrien-s">
+                    <h3>Adrien S</h3>
+                </div>
+                <div class="user-con">
+                    <img src="images/anne-s.jpg" alt="anne-s">
+                    <h3>Anne S</h3>
+                </div>
+                <div class="user-con">
+                    <img src="images/alayne-s.jpg" alt="alayne-s">
+                    <h3>Alayne S</h3>
+                </div>
+                <div class="user-con">
+                    <img src="images/arry-s.jpg" alt="array-s">
+                    <h3>Array S</h3>
+                </div>
+                <div class="user-con-link-box">
+                    <a href="#" class="user-con-view-more">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

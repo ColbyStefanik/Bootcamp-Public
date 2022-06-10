@@ -1,0 +1,22 @@
+.post-box{
+    border: solid;
+    border-color: black;
+    width: 500px;
+}
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.post-box p{
+    margin: 20px;
+}
+
+.like-btn{
+    background-color: yellow;
+    box-shadow: 2px 2px 0px 1px black;
+}

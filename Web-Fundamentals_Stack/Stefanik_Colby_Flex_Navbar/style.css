@@ -1,0 +1,30 @@
+.nav{
+    background-color: rgb(61, 58, 58);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a{
+    color: gray;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.active{
+    color: white;
+}
+
+.btn{
+    background-color: cyan;
+    color: white;
+    box-shadow: 1px 1px 4px 3px black;
+}

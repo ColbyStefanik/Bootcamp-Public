@@ -1,0 +1,13 @@
+.row{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+}

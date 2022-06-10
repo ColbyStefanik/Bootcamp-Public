@@ -1,0 +1,42 @@
+.container{
+    background-color: gray;
+    width: 1000px;
+}
+
+h1{
+    text-align: center;
+    text-emphasis: bold;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row{
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-row{
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-row{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 200px;
+}
