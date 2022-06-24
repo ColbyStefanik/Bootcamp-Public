@@ -1,0 +1,1 @@
+This folder only contains files edited from base react-app. These will not run on their own.
