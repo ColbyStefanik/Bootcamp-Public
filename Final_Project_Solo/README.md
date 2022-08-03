@@ -1,0 +1,1 @@
+This is my final solo project for my time at the Coding Dojo. A website dedicated to a fandom for sharing artwork and other fan content.
