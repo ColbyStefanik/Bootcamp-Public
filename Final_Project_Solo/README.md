@@ -1,1 +1,4 @@
 This is my final solo project for my time at the Coding Dojo. A website dedicated to a fandom for sharing artwork and other fan content.
+
+This project also serves as a good lesson on why you shouldn't bite off more then you can chew. This project was originally intended to be much larger in scope and was beyond my ability to finish within the deadline provided by instructors at the Coding Dojo. What has been posted here is what I could bring together and make functional as I could in the final frantic days of work on the project.
+I intend to come back and finish this project in the future, but for now I wish it to be a representation of my best trait. My ability and willingness to work hard on a project even while running out of time to bring the vision to life.
